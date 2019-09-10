@@ -93,7 +93,7 @@
 - Can you build your own workflow which 
   - does the MSA and then builds the tree?
   - always uses the Jukes-Cantor distance and UPGMA to build the tree?
-  - or uses MAFFT instead of MUSCLE? ([my solution](workflows/Align DNA with MAFFT and build tree with Jukes-Cantor distance and UPGMA method.geneiousWorkflow))
+  - or uses MAFFT instead of MUSCLE? ([my solution](workflows/Align%20DNA%20with%20MAFFT%20and%20build%20tree%20with%20Jukes-Cantor%20distance%20and%20UPGMA%20method.geneiousWorkflow))
 - Using existing workflow - modify with your parameters and then export - maybe most common use case
   - View/edit - Create editable copy
 - From scratch to practice how to set up options
