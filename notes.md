@@ -47,7 +47,9 @@
 
 ## When you Open Geneious for the First Time
 
-- It will ask you where you want to store your data.  You can choose default or wherever you would like.  They recommend NOT to store it in a "cloud" directory (like your OneDrive folder).  
+- It will ask you where you want to store your data.  You can choose default or wherever you would like.  They recommend NOT to store it in a "cloud" directory (like your OneDrive folder).
+  - I think it has to do with how the files are saved, and how if you keep OneDrive or Box or whatever running/syncing all the time in the background it might corrupt the files while Geneious is running.
+  - You CAN however set it to backup to a cloud directory.  Whenever your close Geneious, it will ask you if you want to back up your data.  It will then compress and copy the data over to wherever you would like.
 - **Left panel is Sources** - data sources, both Local (stored on your computer) and remote (like NCBI)
   - "Sample Documents" has examples of different data formats
 - Importing

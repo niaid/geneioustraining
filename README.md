@@ -1,6 +1,4 @@
-# README
-
-Genomics 101: Geneious
+# Genomics 101: Geneious
 
 BCBB Bioinformatics Workshops at RML
 
@@ -25,3 +23,4 @@ bioinformatics@niaid.nih.gov
 - [General help](https://www.geneious.com/academic/resources/)
 
   
+
