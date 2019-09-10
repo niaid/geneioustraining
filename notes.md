@@ -2,10 +2,10 @@
 
   - [Installation](#installation)
   - [Why I Like Geneious](#why-i-like-geneious)
-  - [Some of the available Tools and
-    Workflows](#some-of-the-available-tools-and-workflows)
   - [When you Open Geneious for the First
     Time](#when-you-open-geneious-for-the-first-time)
+  - [Some of the available Tools and
+    Workflows](#some-of-the-available-tools-and-workflows)
   - [Primer Tutorial Detours](#primer-tutorial-detours)
   - [Plant Evo Tutorial Exercises](#plant-evo-tutorial)
 
@@ -23,6 +23,21 @@
 - It's ok to use a GUI tool if it makes your life easier.
 - A lot of the tools it implements, are ones that are considered the best or standard in the field - I use them anyway outside of Geneious on the command line or in Locus.
 - You can make "workflows" or pipelines stringing together different steps easily.
+
+## When you Open Geneious for the First Time
+
+- It will ask you where you want to store your data.  You can choose default or wherever you would like.  They recommend NOT to store it in a "cloud" directory (like your OneDrive folder).
+  - I think it has to do with how the files are saved, and how if you keep OneDrive or Box or whatever running/syncing all the time in the background it might corrupt the files while Geneious is running.
+  - You CAN however set it to backup to a cloud directory.  Whenever your close Geneious, it will ask you if you want to back up your data.  It will then compress and copy the data over to wherever you would like.
+- **Left panel is Sources** - data sources, both Local (stored on your computer) and remote (like NCBI)
+  - "Sample Documents" has examples of different data formats
+- Importing
+  - Auto Detect usually works.  Sometimes if file extension is non-standard, may have to specify.
+  - Example data in Geneious directory/Sample Importable Files
+  - **Tip**: BEFORE you import, make sure you have created and selected the folder under Sources where you want the data to be imported to.  
+  - Importing from NCBI - select database, search for accession (easiest) - KY888121
+    - To save document locally, copy it to one of your Local folders
+- If, after a while, your Geneious data folder seems unusually large, try erasing your Deleted Items.
 
 ## Some of the available Tools and Workflows
 
@@ -44,23 +59,6 @@
   - has some additional plugins not in the GUI
   - To install plugin from the web: Download gplugin file.  Then choose Geneious Prime -> Preferences -> Plugins and Features -> Install plugin from a gplugin file...
 - Example, try installing MAFFT
-
-## When you Open Geneious for the First Time
-
-- It will ask you where you want to store your data.  You can choose default or wherever you would like.  They recommend NOT to store it in a "cloud" directory (like your OneDrive folder).
-  - I think it has to do with how the files are saved, and how if you keep OneDrive or Box or whatever running/syncing all the time in the background it might corrupt the files while Geneious is running.
-  - You CAN however set it to backup to a cloud directory.  Whenever your close Geneious, it will ask you if you want to back up your data.  It will then compress and copy the data over to wherever you would like.
-- **Left panel is Sources** - data sources, both Local (stored on your computer) and remote (like NCBI)
-  - "Sample Documents" has examples of different data formats
-- Importing
-  - Auto Detect usually works.  Sometimes if file extension is non-standard, may have to specify.
-  - Example data in Geneious directory/Sample Importable Files
-  - **Tip**: BEFORE you import, make sure you have created and selected the folder under Sources where you want the data to be imported to.  
-  - Importing from NCBI - select database, search for accession (easiest) - KY888121
-    - To save document locally, copy it to one of your Local folders
-- If, after a while, your Geneious data folder seems unusually large, try erasing your Deleted Items.
-
-
 
 ## Primer Tutorial Detours
 
@@ -89,6 +87,12 @@
 ## Plant Evo Tutorial
 
 - Has some built-in exercises
+- Your figures DON'T have to look super ugly.
+  - Can make the alignment and tree figures look nicer and save settings as you work
+  - Change fonts
+  - Right click to edit sequence names
+- https://support.geneious.com/hc/en-us/articles/227533208-How-do-I-export-publication-quality-images-
+  - File -> Save as Image
 
 **Extra: Building a workflow**
 
