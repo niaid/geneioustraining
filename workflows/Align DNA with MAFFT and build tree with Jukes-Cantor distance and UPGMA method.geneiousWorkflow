@@ -1,0 +1,40 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="Align DNA with MAFFT and build tree with Jukes-Cantor distance and UPGMA method" author="Poorani" geneiousVersion="2019.2.1" uniqueId="308a7a7b-9280-4274-a3c9-ab50ff1fa29b" revisionNumber="3" description="" bundledIconName="plugin">
+    <workflowElement id="MAFFT" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="algorithmModes">auto</option>
+        <option name="proteinScoringMatrix">BLOSUM62</option>
+        <option name="nucleotideScoringMatrix">200PAM</option>
+        <option name="gapOpenPenalty">1.53</option>
+        <option name="offsetValue">0.123</option>
+        <option name="preserveOrder">true</option>
+        <option name="autoDirection">true</option>
+        <option name="adjustAccurately">true</option>
+        <option name="legacyGapPenalty">false</option>
+      </Options>
+      <optionToExpose optionName="algorithmModes" label="" />
+    </workflowElement>
+    <workflowElement id="TreeDocumentOperationWrapper_Build_Tree_From_Alignment_NUCLEOTIDE_" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="stripMasked">false</option>
+        <option name="customComponent1"></option>
+        <childOption name="treeBuildingOptions">
+          <childOption name="alignment">
+            <option name="determineDirection">false</option>
+            <option name="alignmentType">globalFreeEndGaps</option>
+            <option name="nucleotideCostMatrix">65% similarity</option>
+            <option name="gapOpenPenalty">12.0</option>
+            <option name="gapExtensionPenalty">3.0</option>
+            <option name="dontAlign">false</option>
+          </childOption>
+          <childOption name="treeBuilding">
+            <option name="distanceModel">Jukes-Cantor</option>
+            <option name="buildMethod">UPGMA</option>
+            <option name="outgroup">none</option>
+          </childOption>
+        </childOption>
+      </Options>
+      <optionToExpose optionName="stripMasked" label="" />
+    </workflowElement>
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>
