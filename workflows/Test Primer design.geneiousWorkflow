@@ -1,0 +1,45 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="Test Primer design" author="subramanianp4" geneiousVersion="2019.2.1" uniqueId="f790cd2b-1d78-44da-bf2a-e5f942037e59" revisionNumber="3" description="" bundledIconName="plugin">
+    <workflowElement id="Operation_SearchPrimersAnnotationGenerator" exposeNoOptions="false" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="primerSourceOption">inMemoryDocument__|urn:primerDesign:placeholder:Use Current Folder|&lt;html&gt;&lt;i&gt;Use Current Folder&lt;/i&gt;&lt;/html&gt;___</option>
+        <option name="testLeft">true</option>
+        <option name="testRight">true</option>
+        <option name="testAsPairs">true</option>
+        <option name="testProbe">false</option>
+        <option name="bindingRegionComboOption">bindAnywhere</option>
+        <option name="regionRadioOption">findInRegionOption</option>
+        <option name="expandedRegionOption">0</option>
+        <option name="customComponent1"></option>
+        <option name="allowMismatchesOption">true</option>
+        <option name="maximumMismatchesOption">2</option>
+        <option name="enableMismatchRegionLimitationOption">true</option>
+        <option name="mismatchLimitationOption">3</option>
+        <option name="annotateMismatchesOption">true</option>
+        <option name="applyToReferencedSequences">false</option>
+        <childOption name="mismatchOptions" />
+        <childOption name="constraintRegion">
+          <option name="enableProductSizeOption">false</option>
+          <option name="productSizeFromOption">1</option>
+          <option name="productSizeToOption">600</option>
+          <option name="tmOptionButton">Tm Options...</option>
+          <option name="customComponent1"></option>
+          <childOption name="tmOptions">
+            <childOption name="tmOptions">
+              <option name="tmFormula">1</option>
+              <option name="saltCorrectionFormula">1</option>
+              <option name="divider_1"></option>
+              <option name="monovalentSaltConcentration">50.0</option>
+              <option name="annealingConc">50.0</option>
+              <option name="divalentSaltConcentration">1.5</option>
+              <option name="dntpConcentration">0.6</option>
+            </childOption>
+          </childOption>
+        </childOption>
+      </Options>
+      <optionToExpose optionName="primerSourceOption" label="" />
+      <optionToExpose optionName="bindingRegionComboOption" label="" />
+    </workflowElement>
+    <workflowElement id="com.biomatters.plugins.primerDesign.extractpcrproduct.ExtractPcrProductOperation" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement" />
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>
