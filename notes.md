@@ -1,4 +1,4 @@
-# Geneious an NIAID
+# Geneious at NIAID
 
   - [Installation](#installation)
   - [Why I Like Geneious](#why-i-like-geneious)
