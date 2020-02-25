@@ -22,6 +22,8 @@ bioinformatics@niaid.nih.gov
 
 - [Class notes](notes.md) - same as slides
 
+- [Step-by-step notes](Step_by_step_class_Workflow.md) on exactly what we did.
+
 - [General Geneious help](https://www.geneious.com/academic/resources/)
 
   
