@@ -30,3 +30,4 @@ bioinformatics@niaid.nih.gov
 
 ## Previous Classes
 - [RML workshop](https://github.com/niaid/geneioustraining/tree/RML-2019) - from 10 Sep 2019
+- [Training at Main Campus](https://github.com/niaid/geneioustraining/tree/25Feb2020) - from 25 Feb 2020
