@@ -20,7 +20,7 @@ bioinformatics@niaid.nih.gov
 
 - [General Geneious help](https://www.geneious.com/academic/resources/)
 
-- [Class materials download](s3://proj-bip-prod-publicread/training/geneious/materialsgeneious_1Apr2020.zip) - sample data
+- [Class materials download](https://proj-bip-prod-publicread.s3.amazonaws.com/training/geneious/materialsgeneious_1Apr2020.zip) - sample data
 
   
 
