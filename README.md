@@ -20,6 +20,8 @@ bioinformatics@niaid.nih.gov
 
 - [General Geneious help](https://www.geneious.com/academic/resources/)
 
+- [Class materials download](https://proj-bip-prod-publicread.s3.amazonaws.com/training/geneious/GeneiousTraining_25Feb2020.zip) - sample data and slides
+
   
 
 ## Previous Classes
