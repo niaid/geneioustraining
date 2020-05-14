@@ -90,4 +90,5 @@ Poorani Subramanian
   - <bioinformatics@niaid.nih.gov> - our group email – best to email
     here for help\!
   - <https://github.com/niaid/geneioustraining> – links to materials
-  - My email: <bioinformatics@niaid.nih.gov>
+
+    
